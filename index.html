@@ -10,17 +10,17 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="mt-5 d-flex align-items-center justify-content-center fs-6">
+    <div class="mt-5 row d-flex  justify-content-center fs-6">
       <div class="card p-2" style="width: 18rem">
         <img src="./Images/Welcome.png" class="card-img-top" alt="..." />
         <div class="card-body">
           <p class="card-text">
-            This task is to put any shit on text box below it will return it
+            This task is to put any text on text box below it will return it
             reversed
           </p>
         </div>
         <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label"
+          <label for="Text" class=" ms-3 form-label"
             >Any words</label
           >
           <div class="col-12 d-flex align-items-center justify-content-around">
@@ -28,17 +28,22 @@
               <input
                 type="email"
                 class="form-control"
-                id="exampleFormControlInput1"
+                id="Text"
                 placeholder="Coffee as Example"
+                value="inputText"
               />
             </div>
             <div class="Rev-btn col-3">
-              <button type="button" class="btn btn-sm">Reverse</button>
+              <button type="button" id="Rverse" class="fs-6 p-2 btn">Reverse</button>
             </div>
           </div>
         </div>
       </div>
+      <div class="data">
+
+      </div>
     </div>
     <script src="./JS/bootstrap.bundle.min.js"></script>
+    <script src="./JS/file.js"></script>
   </body>
 </html>

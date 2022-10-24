@@ -1,5 +1,6 @@
 body{
-    background-color: rgb(250, 210, 151);
+    background: rgb(242,203,114);
+    background: radial-gradient(circle, rgba(242,203,114,1) 0%, rgba(255,243,181,1) 100%); 
 }
 .card{
     background-color: rgb(218, 169, 96) ;
@@ -9,6 +10,21 @@ body{
 .card .form-control{
 border: rgb(218, 169, 96);
 }
-.Rev-btn{
-    background-color: rgb(87, 62, 26); ;
+.Rev-btn button{
+    background-color: rgb(87, 62, 26); 
+    color :white;
+    border-radius: 6px;
+}
+.Rev-btn button:hover{
+    color: rgb(217, 142, 62);
+}
+
+.active{
+background-color:  rgb(87, 62, 26) ;
+color :white;
+margin: 15px;
+padding: 15px 10px;
+border-radius: 6px;
+transition: 0.3s;
+max-width: 400px;
 }
