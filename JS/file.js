@@ -3,8 +3,16 @@ let button=document.querySelector("#Rverse")
 let container=document.querySelector(".data")
 button.addEventListener("click",e=>{
     let hold=input.value+"";
-    hold=hold.split("").reverse().join("")
+    if(hold!=""){
+    let reversed=""
+    for (let index = hold.length-1; index >= 0; index--) {
+        reversed+=hold[index];
+    }
     container.classList.add("active")
-    container.innerHTML="Reverse is : "+hold;
-    
+    container.innerHTML="Reverse is : "+reversed;
+}
+else{
+    container.classList.remove("active")
+    container.innerHTML=""
+}
 })
