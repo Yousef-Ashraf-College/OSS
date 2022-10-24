@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(250, 210, 151);
+}
+.card{
+    background-color: rgb(218, 169, 96) ;
+    color: white;
+}
+
+.card .form-control{
+border: rgb(218, 169, 96);
+}
+.Rev-btn{
+    background-color: rgb(87, 62, 26); ;
+}
